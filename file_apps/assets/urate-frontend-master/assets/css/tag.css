@@ -1,0 +1,68 @@
+.urate-tag-panel {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border: 1px solid #9b9b9b;
+    border-radius: 16px;
+    margin-bottom: 15px;
+  height: 180px;
+overflow-y: auto; }
+  .urate-tag-panel .tag-panel-title {
+    display: inline-block;
+    margin: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #cb3827; }
+
+.urate-tag {
+  display: inline-block;
+  position: relative;
+  padding: 3px 10px;
+  border: 1px solid #9b9b9b;
+    border-radius: 18px;
+  margin: 5px; }
+  .urate-tag.urate-profile-tag, .urate-tag.urate-favorite-tag {
+    padding-right: 40px; }
+  .urate-tag.urate-profile-tag.urate-favorite-tag {
+    padding-right: 60px; }
+  .urate-tag .close-tag {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    height: 14px;
+    width: 14px; }
+    .urate-tag .close-tag .close-mark {
+      position: relative;
+      top: 50%; }
+      .urate-tag .close-tag .close-mark::before, .urate-tag .close-tag .close-mark::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 14px;
+        background: #cb3827; }
+      .urate-tag .close-tag .close-mark::before {
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg); }
+      .urate-tag .close-tag .close-mark::after {
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg); }
+  .urate-tag .favorite-tag {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    height: 14px;
+    width: 14px;
+    font-size: 14px;
+    margin-top: -2px; }
+    .urate-tag .favorite-tag .favorite-mark {
+      position: relative; }
+      .urate-tag .favorite-tag .favorite-mark span {
+        -webkit-text-stroke: 1px #F2B50F;
+        color: transparent; }
+      .urate-tag .favorite-tag .favorite-mark.favorited span {
+        color: #F2B50F; }
+  .urate-tag .close-tag + .favorite-tag {
+    right: 28px; }

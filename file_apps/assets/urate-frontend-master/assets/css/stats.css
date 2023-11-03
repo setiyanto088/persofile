@@ -1,0 +1,63 @@
+.urate-stats {
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  padding: 16px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 16px;    
+  min-height: 120px;
+}
+.urate-stats .icon,
+.urate-stats .content {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 5px;
+}
+.urate-stats .icon {
+  display: block;
+  position: relative;
+  padding: 10px 5px;
+  width: 40%;
+  max-width: 90px;
+  min-width: 50px;
+  margin-right: 5px;
+}
+.urate-stats .icon img {
+  display: block;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.urate-stats .title {
+  position: relative;
+  display: block;
+  clear: both;
+  color: #cb3827;
+  font-size: 1.1vw;
+}
+.urate-stats .value {
+  font-size: 1.9vw;
+  color: #9b9b9b;
+  display: block;
+  clear: both;
+}
+
+@media screen and (max-width: 767px) {
+  .urate-stats .title {
+    font-size: 4.5vw;
+  }
+  .urate-stats .value {
+    font-size: 7vw;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .urate-stats .title {
+    font-size: 3vw;
+  }
+  .urate-stats .value {
+    font-size: 3.5vw;
+  }
+}

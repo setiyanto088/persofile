@@ -1,0 +1,24 @@
+.chart-legend {
+	position: absolute;
+	bottom: 0%;
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, 0%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+}
+
+.chart-legend li:nth-child(1) span{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px; 
+    margin-right: 7px;
+    margin-bottom: 0.1vw;
+}
+
+
+.chart-legend li {
+	color: #fff;
+	font-size: 1vw;
+	margin-left: -45px;
+}

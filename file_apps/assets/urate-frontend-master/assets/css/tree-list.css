@@ -1,0 +1,90 @@
+.tree-list li {
+  padding-top: 8px;
+}
+.tree-list li:first-child .checkbox label:before, .tree-list li:last-child .checkbox label:after {
+  border: none;
+}
+.tree-list li .checkbox {
+  margin-left: -10px;
+}
+.tree-list li .checkbox label:before, .tree-list li .checkbox label:after {
+  content: "-";
+  border-left: 2px dashed gainsboro;
+  position: relative;
+  color: transparent;
+  z-index: -9;
+}
+.tree-list li .checkbox label:before {
+  margin-left: 8px;
+  top: -20px;
+}
+.tree-list li .checkbox label:after {
+  margin-left: -6px;
+  bottom: -17px;
+}
+.tree-list li ul {
+  border-left: 2px dashed gainsboro;
+  margin-left: -1px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.tree-list li ul li {
+  border: none;
+  padding: 0;
+}
+.tree-list li ul li:before {
+  content: "-";
+  border-top: 2px dashed gainsboro;
+  margin-left: -38px;
+  position: absolute;
+  width: 40px;
+  color: transparent;
+  margin-top: 10px;
+  border-left: none;
+}
+.tree-list li ul li:after {
+  border-left: none;
+}
+
+.parameter-box .urate-panel {
+  border: 1px solid #9b9b9b;
+  -webkit-box-shadow: 0 0 3px #ccc;
+          box-shadow: 0 0 3px #ccc;
+  border-radius: 16px;
+}
+.parameter-box .urate-panel .panel-heading {
+  padding: 15px 15px 0 15px;
+  border-bottom: 1px solid #cb3827;
+}
+.parameter-box .urate-panel .panel-heading p {
+  line-height: 2;
+}
+.parameter-box .urate-panel .panel-heading .urate-panel-title {
+  display: inline;
+}
+.parameter-box.result .urate-panel .panel-body, .parameter-box .urate-panel .panel-body {
+  padding: 15px;
+  overflow-y: auto;
+}
+.parameter-box.result .urate-panel .panel-body {
+  height: 264px;
+}
+.parameter-box .urate-panel .panel-body {
+  height: 170px;
+}
+
+.favorite-box .urate-panel {
+  border: 1px solid #9b9b9b;
+  -webkit-box-shadow: 0 0 3px #ccc;
+          box-shadow: 0 0 3px #ccc;
+  border-radius: 16px;
+}
+.favorite-box .urate-panel .panel-body {
+  padding: 10px;
+  overflow-y: auto;
+  height: 120px;
+}
+
+.jstree-icon.jstree-themeicon {
+  display: none !important;
+}

@@ -1,0 +1,48 @@
+.andor {
+  width: auto;
+  display: inline-block;
+  margin: 5px;
+  height: 30px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #333;
+}
+.andor .urate-custom-button {
+  height: 30px;
+  padding: 3px 10px;
+  padding-right: 40px;
+}
+.andor .urate-custom-button::before {
+  height: 14px;
+  width: 14px;
+  background-size: 14px 14px;
+}
+.andor .urate-custom-menu > li {
+  padding: 3px 10px;
+}
+
+.list-profile-head {
+  margin-bottom: 15px;
+}
+.list-profile-head > div > * {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  outline: none !important;
+  -webkit-box-shadow: 0 0 0 !important;
+          box-shadow: 0 0 0 !important;
+}
+
+.pull-right > .text-right > .btn {
+  margin-top: -5px;
+}
+.pull-right > form.form-inline {
+  margin: 0 15px;
+}
+
+.pull-left > h3 {
+  line-height: 40px;
+}

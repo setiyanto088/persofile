@@ -1,0 +1,42 @@
+html, body {
+  font-family: "Lato", sans-serif;
+}
+
+.page-title {
+  color: #4b4b4b;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.page-title-inner {
+  color: #4b4b4b;
+  font-size: 36px;
+  margin-bottom: 15px !important;
+ }
+
+.breadcrumb {
+  margin-bottom: -5px !important;
+  padding-left: 0px !important;
+}
+
+.breadcrumb-item {
+  color: #CB3827;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > 
+.active > a:hover, .pagination > .active > span:hover, .pagination > 
+.active > a:focus, .pagination > .active > span:focus {
+    background-color: #000000;
+    border-color: #000000; 
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > 
+li > a:focus, .pagination > li > span:focus {
+    color: #000000; 
+}
+.pagination > li > a, .pagination > li > span {
+    color: #000000; 
+}
