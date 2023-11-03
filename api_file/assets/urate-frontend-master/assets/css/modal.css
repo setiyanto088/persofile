@@ -1,0 +1,40 @@
+/* Modal */
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal .modal-content{
+	box-shadow: 0 0 1px #fff59d;
+}
+.modal .modal-header{
+	border-bottom: none;
+	padding: 10px 15px;
+}
+.modal .modal-title{
+	color: #cb3827;
+	font-weight: 400;
+}
+.modal .modal-body{
+	color: #4b4b4b;
+	padding: 10px 15px;
+}
+.modal .modal-footer{
+	border-top: none;
+	padding: 10px 15px;
+}
+.modal .close{
+	font-size: 28px;
+	font-weight: 200;
+}

@@ -1,0 +1,29 @@
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #9b9b9b;
+}
+
+*::-webkit-scrollbar-button {
+  height: 10px;
+}
+
+*::-moz-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+
+*::-moz-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #9b9b9b;
+}
+
+*::-moz-scrollbar-button {
+  height: 10px;
+}

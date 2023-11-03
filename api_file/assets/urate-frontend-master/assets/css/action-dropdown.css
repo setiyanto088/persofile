@@ -1,0 +1,18 @@
+.dropdown-menu.urate-action-dropdown {
+  border: 1px solid #9b9b9b;
+  border-radius: 16px !important;
+  overflow: hidden;
+  padding: 0 !important;
+  color: #4b4b4b !important;
+}
+.dropdown-menu.urate-action-dropdown li a {
+  padding: 10px 16px;
+}
+.dropdown-menu.urate-action-dropdown li a:hover {
+  background-color: #9b9b9b;
+}
+.dropdown-menu.urate-action-dropdown .action-title {
+  border-bottom: 1px solid #9b9b9b;
+  margin: 0;
+  padding: 10px 16px;
+}

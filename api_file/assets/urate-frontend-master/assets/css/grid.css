@@ -1,0 +1,19 @@
+.grid-stack>.grid-stack-item>.grid-stack-item-content {
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    background: white;
+}
+
+.grid-stack-item-content>.widget {
+    box-shadow: none;
+    margin: 0;
+    height: 100%;
+}
+
+.grid-stack>.grid-stack-item>.ui-resizable-se {
+    margin: 10px;
+}
+
+.grid-stack-item.inverse>.ui-resizable-se {
+    -webkit-filter: brightness(100);
+}

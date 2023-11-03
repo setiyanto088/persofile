@@ -1,0 +1,17 @@
+.urate-panel {
+  	box-shadow: 0 1px 3px #ccc;
+    border-radius: 16px;
+}
+.urate-panel .panel-heading {
+	padding: 20px;
+    border-bottom: 1px solid #cb3827; 
+}
+.urate-panel .panel-heading p{
+	line-height: 2;
+}
+.urate-panel .panel-heading .urate-panel-title {
+	display: inline; 
+}
+.urate-panel .panel-body{
+	padding: 20px;
+}

@@ -1,0 +1,117 @@
+/* widgets */
+
+.widget {
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    min-height: 150px;
+}
+
+.widget .btn-default,
+.widget .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 15px;
+}
+
+.widget .btn-default:hover,
+.widget .btn-default:focus,
+.widget .btn-default.focus,
+.widget .btn-default:active,
+.widget .btn-default.active,
+.widget .open>.dropdown-toggle.btn-default {
+    background: none;
+    box-shadow: none;
+}
+
+.widget .btn-action {
+    float: right;
+}
+
+.widget .btn-action .btn-default {
+    display: none;
+    padding: 10px 15px;
+}
+
+.widget:hover .btn-action .btn-default {
+    display: block;
+}
+
+.widget .dropdown-menu li {
+    list-style: none;
+}
+
+.widget .navbar-left,
+.widget .navbar-center {
+    color: #000;
+}
+
+.widget.selected {
+    border: 3px solid #cb3827;
+}
+
+.widget.selected.inverse {
+    border: 3px solid #fff;
+}
+
+.widget.inverse {
+    background: #cb3827;
+}
+
+.widget.inverse .navbar-left,
+.widget.inverse .navbar-center,
+.widget.inverse .btn-action .btn>[class*="ion-"] {
+    color: #fff;
+}
+
+.widget .navbar-center {
+    float: left;
+    margin-right: -100%;
+    text-align: center;
+    width: 100%;
+}
+
+.widget.inverse .btn-default {
+    background: none;
+}
+
+.widget .navbar-right .urate-checkbox {
+    display: none;
+    margin: 10px 15px;
+}
+#addNewWidget .widget .navbar-right .btn,
+.show-checkbox .navbar-right .btn,
+.show-checkbox:hover .navbar-right .btn {
+    display: none;
+}
+#addNewWidget .widget .navbar-right .urate-checkbox,
+.show-checkbox .navbar-right .urate-checkbox {
+    display: block;
+}
+
+.widget-content {
+    clear: both;
+    margin: 60px 30px 10px;
+}
+
+.widget table {
+  font-size: 12px;
+}
+
+.widget table tr {
+  line-height: 10px;
+}
+
+.widget table tr td {
+  padding: 3px 8px;
+}
+
+.widget table tr th {
+  padding: 3px 8px;
+}
+
+.widget table th img.sort {
+  height: 12px;
+  margin-left: 10px;
+  vertical-align: sub;
+}

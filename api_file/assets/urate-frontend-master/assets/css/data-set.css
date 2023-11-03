@@ -1,0 +1,237 @@
+
+.dataset {
+	margin: 20px 0;
+}
+.dataset .dataset-title {
+	border-bottom: 1px solid #CC3300;
+	padding-bottom: 5px;
+	margin-bottom: 15px
+}
+.dataset .dataset-title a{
+	color: #CC3300;
+	float: right;
+	margin-right: 5px;
+	/*font-size: 16px;*/
+}
+.dataset .dataset-title a:hover{
+	color: #757575;
+}
+.dataset .title-text {
+	text-align: left;
+	display: inline;
+}
+.dataset .title-icon {
+	text-align: right;
+	display: inline;
+	float: right;
+}
+
+.dataset .input-group-addon{
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+}
+.dataset .urate-form-input{
+	border: 1px solid #9b9b9b;
+  border-radius: 18px !important;
+	color: #9b9b9b;
+	font-size: 14px;
+	padding: 0px 20px;
+	height: 29px
+	/*height: 44px;*/
+}
+
+.dataset .input-daterange .urate-form-input{
+  text-align: center;
+	/*height: 44px;*/
+}
+
+.dataset .urate-form-input:focus{
+	outline: 0;
+}
+.dataset .input-daterange .urate-form-input{
+
+}
+
+.btn-loader img{
+	display: none;
+}
+
+/* Rewrite datepicker */
+.datepicker{
+	border-radius: 18px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.datepicker table{
+	width: 224px;
+}
+
+.datepicker .datepicker-days{
+	background-color: #fff;
+	border-radius: 15px;
+}
+
+.datepicker .datepicker-days .prev:hover,
+.datepicker .datepicker-days .next:hover,
+.datepicker .datepicker-days .datepicker-switch:hover{
+	background-color: #cc3300;
+	border-radius: 4px;
+}
+.datepicker .datepicker-days thead tr:nth-child(2){
+	background-color: #cc3300;
+	color: #fff;
+	height: 45px;
+}
+.datepicker .datepicker-days thead tr:nth-child(2) th{
+	border-radius: 0;
+}
+
+.datepicker .datepicker-days thead tr:nth-child(3){
+	padding: 5px;
+}
+.datepicker table tr td span.active.active{
+	background-color: #fff !important;
+	background-image: none;
+	color: #333;
+}
+
+.datepicker table tr td.day{
+	color: #4b4b4b;
+	position: relative;
+}
+
+.datepicker table tr td.day::before{
+	position: absolute;
+	display: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	content: '';
+	height: 100%;
+	width: 100%;
+	border: 1px solid #c30;
+	border-radius: 5px;
+}
+
+.datepicker table tr td.day.active, .datepicker table tr td.day.active:hover{
+	color: white;
+	background: #cc3300;
+}
+
+.datepicker table tr td.day:hover{
+	background: transparent;
+}
+
+.datepicker table tr td.day:hover::before{
+	display: block;
+}
+
+.datepicker table tr td.old{
+	color: #9b9b9b;
+}
+
+/* Urate Panel Result */
+.urate-panel-result .panel-body{
+	padding: 0 0 20px 0;
+}
+.urate-panel-result .result-action{
+	padding: 12px 15px;
+	/* background-color: #f5f5f5; */
+}
+.urate-panel-result .result-action label{
+	font-size: 16px;
+	color: #757575;
+	margin-right: 20px;
+}
+.urate-panel-result .result-action button.active{
+	background-color: #c2c2c2;
+}
+.urate-panel-result .result-control{
+	padding: 12px 15px;
+	border-top: 1px solid #cc3300;
+}
+.urate-panel-result .result-control .urate-radio{
+	display: inline-block;
+	margin-right: 50px;
+}
+.urate-panel-result .result-control .urate-radio span{
+	margin-left: 25px;
+}
+.urate-panel-result .result-control .active span{
+	color: #cc3300;
+}
+.urate-panel-result .result-action .urate-select-dropdown,
+.urate-panel-result .result-chart .urate-select-dropdown{
+	width: auto;
+}
+.urate-panel-result .result-table{
+	overflow-x: auto;
+}
+.result-chart{
+	padding: 25px;
+}
+.result-chart-filter{
+	margin: 25px auto;
+}
+.result-summary{
+	padding: 20px;
+}
+.result-summary .summary-panel{
+	padding: 20px 35px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #ccc;
+}
+.result-summary .summary-panel h3{
+	font-size: 26px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.result-summary .summary-panel label{
+	font-size: 20px;
+	color: #cc3300;
+	font-weight: 300;
+}
+.result-summary .summary-panel span{
+	font-size: 24px;
+}
+.result-summary .summary-table{
+	margin-top: 30px;
+}
+.result-summary .summary-pagging{
+	text-align: right;
+}
+.result-summary .summary-btn{
+	background-color: transparent !important;
+	border: 1px solid #ccc !important;
+	padding: 10px 20px;
+	margin: 0 5px;
+}
+.result-action .result-export-now,
+.result-action .result-export-cancel{
+	display: none;
+}
+
+/* Tabs */
+.nav-tabs{
+	border: none;
+}
+.nav-tabs li{
+	width: 50%;
+	text-align: center;
+}
+.nav-tabs li a{
+	color: #9b9b9b;
+	font-size: 18px;
+	padding: 12px 0;
+	margin: 0;
+}
+.nav-tabs li.active a{
+	color: #cc3300 !important;
+	background-color: #f5f5f5 !important;
+	border: none !important;
+	border-radius: 0 !important;
+	border-bottom: 2px solid #cc3300 !important;
+}

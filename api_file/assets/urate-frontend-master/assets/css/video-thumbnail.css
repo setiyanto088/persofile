@@ -1,0 +1,43 @@
+.video-thumbnail {
+  border: 1px solid #9b9b9b;
+  box-shadow: 0 0 3px #ccc;
+  width: 80%;
+  position: relative;
+  display: block;
+  background-color: #fff;
+  height: 175px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  margin: 15px auto;
+}
+.video-thumbnail button,
+.video-thumbnail a,
+.video-thumbnail .urate-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.video-thumbnail video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.channel-selector select {
+  margin: 15px auto;
+  width: 80%;
+}
+
+.channel-selector .urate-select-dropdown{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
