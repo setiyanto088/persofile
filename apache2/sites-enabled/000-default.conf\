@@ -1,0 +1,71 @@
+<VirtualHost *:80>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+
+	<Directory /var/www/html>
+		Require ip 180.244.133.159
+		Require ip 180.244.128.103
+		Require ip 103.10.56.85
+		Require ip 125.164.242.151
+		Require ip 180.247.68.119 
+		Require	ip 36.67.5.100
+		Require ip 182.1.88.102
+		Require ip 112.215.175.228
+		Require ip 114.4.222.10
+		Require ip 116.206.39.68
+		Require ip 36.88.159.130
+		Require ip 103.208.205.68
+		Require ip 182.4.134.189
+		Require ip 36.71.72.8
+		Require ip 180.244.167.37
+		Require ip 36.88.19.186
+		Require ip 36.67.130.20
+		Require ip 36.91.217.35
+		Require ip 169.254.47.48
+		Require ip 36.88.19.188
+		Require ip 103.109.155.178
+		Require ip 180.244.128.69
+		Require ip 180.244.163.83
+		Require ip 114.125.79.7
+		Require ip 36.90.60.5
+		Require ip 180.244.161.155
+		Require ip 180.244.134.170
+		Require ip 36.82.13.247
+		Require ip 36.82.13.148
+		Require ip 110.137.192.137
+		Require ip 180.244.164.99
+		Require ip 182.253.127.187
+		Require ip 180.244.166.25
+		Require ip 180.244.164.233
+		Require ip 114.4.78.131
+		Require ip 123.253.233.243
+		Require ip 36.67.240.42
+	</Directory>
+	
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
