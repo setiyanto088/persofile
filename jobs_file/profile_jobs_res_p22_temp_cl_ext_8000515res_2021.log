@@ -1,0 +1,7 @@
+PHP Fatal error:  Uncaught exception 'ClickHouseDB\Exception\QueryException' with message 'Failed to connect to localhost port 8123 after 0 ms: Connection refused' in /var/www/dh/vendor/smi2/phpclickhouse/src/Statement.php:174
+Stack trace:
+#0 /var/www/dh/vendor/smi2/phpclickhouse/src/Transport/Http.php(581): ClickHouseDB\Statement->error()
+#1 /var/www/dh/vendor/smi2/phpclickhouse/src/Client.php(327): ClickHouseDB\Transport\Http->write('ALTER TABLE SUM...', Array, true)
+#2 /var/www/jobs/profile_jobs_res_p22_temp_cl_ext.php(89): ClickHouseDB\Client->write('ALTER TABLE SUM...')
+#3 {main}
+  thrown in /var/www/dh/vendor/smi2/phpclickhouse/src/Statement.php on line 174

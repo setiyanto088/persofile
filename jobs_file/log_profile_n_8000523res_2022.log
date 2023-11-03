@@ -1,0 +1,8 @@
+PHP Fatal error:  Uncaught exception 'ClickHouseDB\Exception\QueryException' with message 'HttpCode:404 ;  ;Code: 60, e.displayText() = DB::Exception: Table inrate.LOGPROOF_AUGUST23_FULL_STEP2 doesn't exist (version 21.1.2.15 (official build))
+' in /var/www/dh/vendor/smi2/phpclickhouse/src/Statement.php:174
+Stack trace:
+#0 /var/www/dh/vendor/smi2/phpclickhouse/src/Transport/Http.php(581): ClickHouseDB\Statement->error()
+#1 /var/www/dh/vendor/smi2/phpclickhouse/src/Client.php(327): ClickHouseDB\Transport\Http->write('\n\t\t\t\t INSERT IN...', Array, true)
+#2 /var/www/jobs/profile_jobs_res_p22_temp_cl.php(287): ClickHouseDB\Client->write('\n\t\t\t\t INSERT IN...')
+#3 {main}
+  thrown in /var/www/dh/vendor/smi2/phpclickhouse/src/Statement.php on line 174
